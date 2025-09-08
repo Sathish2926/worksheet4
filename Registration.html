@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./Asset/css/regis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="form">
+        <h1>Registration From</h1>
+        <form action="">
+            
+            <div class="lab">
+      <label for="fname">First Name</label>
+      <div class="input-icon">
+        <input type="text" id="fname" required>
+        <i class="fa fa-user"></i>
+      </div>
+    </div>
+
+    <div class="lab">
+      <label for="lname">Last Name</label>
+      <div class="input-icon">
+        <input type="text" id="lname" >
+        <i class="fa fa-user"></i>
+      </div>
+    </div>
+           <div class="lab">
+  <label for="phone">Phone Number</label><br>
+  <div class="input-icon">
+    <i class="fa fa-phone"></i>
+    <input type="tel" id="phone" name="phone" maxlength="10" pattern="[0-9]{10}" required placeholder="0123456789">
+  </div>
+</div>
+
+<div class="lab">
+  <label for="email">Email</label><br>
+  <div class="input-icon">
+    <i class="fa fa-envelope"></i>
+    <input type="email" id="email" name="email" required placeholder="abx123@gmsil.com">
+  </div>
+</div>
+
+            <div class="lab">
+                <label for="">Social Media Involvment</label><br>
+                <input type="range" required>
+            </div>
+            <div class="lab">
+                <button type="submit" >Submit</button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
